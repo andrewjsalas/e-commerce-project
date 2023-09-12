@@ -11,7 +11,7 @@ const ProductScreen = () => {
 
     // Get _id from url
     const { id: productId } = useParams();
-    console.log("Product Id: ", productId);
+    // console.log("Product Id: ", productId);
 
     useEffect(() => {
         const fetchProduct = async() => {
